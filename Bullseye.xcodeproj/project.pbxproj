@@ -11,6 +11,7 @@
 		11043C1A29C3F988003E00DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11043C1929C3F988003E00DB /* ContentView.swift */; };
 		11043C1C29C3F989003E00DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11043C1B29C3F989003E00DB /* Assets.xcassets */; };
 		11043C1F29C3F989003E00DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11043C1E29C3F989003E00DB /* Preview Assets.xcassets */; };
+		11351F2129C4484B0099A1BA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11351F2029C4484B0099A1BA /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		11043C1929C3F988003E00DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11043C1B29C3F989003E00DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11043C1E29C3F989003E00DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11351F2029C4484B0099A1BA /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				11043C1929C3F988003E00DB /* ContentView.swift */,
 				11043C1B29C3F989003E00DB /* Assets.xcassets */,
 				11043C1D29C3F989003E00DB /* Preview Content */,
+				11351F2029C4484B0099A1BA /* AboutView.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11043C1A29C3F988003E00DB /* ContentView.swift in Sources */,
+				11351F2129C4484B0099A1BA /* AboutView.swift in Sources */,
 				11043C1829C3F988003E00DB /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +274,11 @@
 				DEVELOPMENT_TEAM = M753Z287XC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bullseye🎯";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -301,9 +307,11 @@
 				DEVELOPMENT_TEAM = M753Z287XC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bullseye🎯";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
